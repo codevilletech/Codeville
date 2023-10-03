@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Site-Padding */
+  --px: 60px;
+
+  /* Color */
+  --pri-col: #313131;
+  --sec-col: #009891;
+  --body-col: #757575;
+  --footer-text: #5a5a5a;
+  --accent1: #ff9900;
+  --accent2: #fff;
+  --accent3: #b0dfdd;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: var(--body-col);
+  font-size: 16px;
+  transition: all linear 0.2s;
+}
+
+section{
+  width: 100%;
+  max-width: 1440px;
+  margin-inline: auto;
+}
+
+.overflow-y-scroll::-webkit-scrollbar,
+.overflow-x-scroll::-webkit-scrollbar,
+.overflow-auto::-webkit-scrollbar {
+  display: hidden;
+  scrollbar-width: 0;
+}
+
+@media (width <= 1200px) {
+  :root {
+    --px: 40px;
+  }
+}
+
+@media (width <= 1024px) {
+  :root {
+    --px: 20px;
+  }
+}
+
+@media (width <= 768px) {
+  :root{
+    --px: 30px;
+  }
+}
+
+@media (width <= 500px) {
+  :root{
+    --px: 16px;
+  }
+}
