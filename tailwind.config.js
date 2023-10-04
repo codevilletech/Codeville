@@ -36,6 +36,11 @@ export default {
 
         homeCardShadow: "0px 10px 40px 0px rgba(0, 0, 0, 0.05);",
       },
+
+      backgroundImage: {
+        homeWisdomAndInspiration:
+          "linear-gradient(180deg, rgba(234, 234, 234, 0.40) 0%, rgba(234, 234, 234, 0.00) 100%)",
+      },
     },
   },
   plugins: [require("preline/plugin")],

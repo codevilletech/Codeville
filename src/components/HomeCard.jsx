@@ -6,7 +6,7 @@ const HomeCard = () => {
   return (
     <div className="flex flex-col border rounded-md overflow-hidden shadow-homeCardShadow gap-[20px] pb-[26px] transition-all duration-150 cursor-pointer hover:scale-105 lg:min-h-[380px] lg:pb-[15px]">
       <div id="card-img" className="w-full lg:h-4/6">
-        <img src={homeCardImg1} alt="" className="w-full h-full"/>
+        <img src={homeCardImg1} alt="" className="w-full h-full" />
       </div>
 
       <div id="card-text" className="px-[14px]">
@@ -20,7 +20,7 @@ const HomeCard = () => {
           Build a strong foundation for further specialization in coding.
         </p>
 
-        <button className="mt-[21px] flex text-sm items-center text-[--pri-col] font-semibold gap-2 lg:mt-5">
+        <button className="mt-[21px] flex text-sm items-center text-[--pri-col] font-semibold gap-2 hover:gap-3 transition-all ease-linear duration-150 lg:mt-5">
           Learn More
           <GoArrowRight />
         </button>

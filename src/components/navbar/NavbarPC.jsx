@@ -1,9 +1,9 @@
 import React from "react";
 import { NavLink, useLocation } from "react-router-dom";
 
-const inActiveStyle = `text-[--pri-col] text-lg font-medium px-4`;
+const inActiveStyle = `text-[--pri-col] text-lg font-medium mx-4 hover:text-[--sec-col] transition ease-linear duration-100`;
 
-const activeStyle = `${inActiveStyle} text-[--sec-col]`;
+const activeStyle = `${inActiveStyle} rounded-[1.5px] border-b-[3px]  border-[--sec-col]`;
 
 const NavbarPC = () => {
   const location = useLocation().pathname;
@@ -13,7 +13,7 @@ const NavbarPC = () => {
       <>
         <li>
           <NavLink
-            className={location === "/about" ? activeStyle : inActiveStyle}
+            className={location === "/" ? activeStyle : inActiveStyle}
             to="/about"
           >
             About

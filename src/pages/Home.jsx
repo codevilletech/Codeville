@@ -115,9 +115,9 @@ const Home = () => {
 
       <div
         id="custom-software-dev-service"
-        className="mt-[100px] mx-auto flex flex-col px-[--px]"
+        className="mt-[100px] mx-auto flex flex-col px-[--px]  xl:mt-[150px]"
       >
-        <h2 className="font-bold text-[19px] text-[--pri-col] leading-snug text-center mx-auto 400:text-[20px] 600:text-[25px] 800:text-[28px] lg:text-[40px] xl:text-[40px] xl:mt-[150px]">
+        <h2 className="font-bold text-[19px] text-[--pri-col] leading-snug text-center mx-auto 400:text-[20px] 600:text-[25px] 800:text-[28px] lg:text-[40px] xl:text-[40px]">
           Custom Software Development Services
         </h2>
 
@@ -148,13 +148,13 @@ const Home = () => {
       </div>
 
       <div id="why-choose-us" className="flex flex-col">
-        <div className="border border-black mt-[150px] flex flex-row gap-[60px] px-[--px] 1100:gap-10 xl:mt-[150px]">
-          <div id="why-us-text" className="border border-red-600 lg:w-1/2">
+        <div className="mt-[150px] flex flex-row gap-[60px] px-[--px] 1100:gap-10 xl:mt-[150px]">
+          <div id="why-us-text" className="lg:w-1/2">
             <h5 className="font-medium text-[--accent2] bg-[--accent1] text-sm rounded-3xl w-fit py-2 px-4 mx-auto lg:mx-0 lg:text-lg">
               Why Choose Codeville?
             </h5>
 
-            <h2 className="font-bold mt-4 text-[19px] text-[--pri-col] leading-snug text-center mx-auto 400:text-[20px] 600:text-[25px] 800:text-[28px] lg:text-[40px] xl:text-[40px]">
+            <h2 className="font-bold mt-4 text-[19px] text-[--pri-col] leading-snug text-center mx-auto 400:text-[20px] 600:text-[25px] 800:text-[28px] lg:w-5/6 lg:mx-0 lg:text-[40px] lg:text-start xl:text-[40px]">
               Enhance Your Skills with Best Online Courses
             </h2>
 
@@ -176,9 +176,15 @@ const Home = () => {
                 className=" w-full h-full relative z-10 object-cover rounded-[5px] md:rounded-[10px]"
               />
 
-              <span className="absolute w-[66px] h-[66px] bg-[#FFDFB0] rounded-full -top-5 -left-5 opacity-50 500:w-[100px] 500:h-[100px] 500:-top-10 500:-left-10 md:w-[180px] md:h-[180px] md:-top-12 md:-left-12" />
+              <span
+                id="psuedo-element"
+                className="absolute w-[66px] h-[66px] bg-[#FFDFB0] rounded-full -top-5 -left-5 opacity-50 500:w-[100px] 500:h-[100px] 500:-top-10 500:-left-10 md:w-[180px] md:h-[180px] md:-top-12 md:-left-12"
+              />
 
-              <span className="absolute w-[66px] h-[66px] bg-[#FFDFB0] rounded-full -bottom-5 -right-5 opacity-50 500:w-[100px] 500:h-[100px] 500:-bottom-10 500:-right-10 md:w-[180px] md:h-[180px] md:-bottom-12 md:-right-12" />
+              <span
+                id="psuedo-element"
+                className="absolute w-[66px] h-[66px] bg-[#FFDFB0] rounded-full -bottom-5 -right-5 opacity-50 500:w-[100px] 500:h-[100px] 500:-bottom-10 500:-right-10 md:w-[180px] md:h-[180px] md:-bottom-12 md:-right-12"
+              />
             </div>
 
             <div
@@ -196,13 +202,10 @@ const Home = () => {
             </div>
           </div>
 
-          <div
-            id="why-us-img"
-            className="hidden border border-green-600 w-1/2 gap-4 lg:flex"
-          >
+          <div id="why-us-img" className="hidden w-1/2 gap-4 relative  lg:flex">
             <div
               id="main-img"
-              className="w-1/2 h-[65%] rounded-lg overflow-hidden place-self-center"
+              className="relative z-10 w-1/2 h-[65%] rounded-lg overflow-hidden place-self-center"
             >
               <img
                 src={enhanceSkill1}
@@ -213,9 +216,9 @@ const Home = () => {
 
             <div
               id="other-img"
-              className="flex flex-col gap-4 w-1/2 h-full justify-center"
+              className="relative z-10 flex flex-col gap-4 w-1/2 h-full justify-center"
             >
-              <div className="overflow-hidden rounded-lg h-2/6 border-2 border-red-600">
+              <div className="overflow-hidden rounded-lg h-2/6">
                 <img
                   src={enhanceSkill2}
                   alt=""
@@ -223,7 +226,7 @@ const Home = () => {
                 />
               </div>
 
-              <div className="overflow-hidden rounded-lg h-2/6 border-2 border-emerald-600">
+              <div className="overflow-hidden rounded-lg h-2/6">
                 <img
                   src={enhanceSkill3}
                   alt=""
@@ -231,14 +234,43 @@ const Home = () => {
                 />
               </div>
             </div>
+
+            <span
+              id="psuedo-element"
+              className="absolute w-[90px] h-[90px] bg-[#FFDFB0] rounded-full top-[140px] -left-10 xl:top-[110px] xl:-left-[40px] opacity-50 "
+            />
+
+            <span
+              id="psuedo-element"
+              className="absolute w-[139px] h-[139px] rounded-full bg-[#FFDFB0] opacity-50 bottom-[115px] xl:bottom-24 left-1/2 -translate-x-1/2"
+            />
           </div>
         </div>
 
-        <div className="mt-[32px] px-[--px] place-self-center">
-          <button className="py-2 px-6 mx-auto w-full place-self-center text-[--accent2] bg-[--sec-col] font-medium rounded-[4px] 600:w-fit">
+        <div className="mt-[32px] px-[--px] place-self-center w-full 600:w-fit">
+          <button className="py-2 px-6 mx-auto w-full place-self-center text-[--accent2] bg-[--sec-col] font-medium rounded-[4px] lg:w-fit">
             Take a Course
           </button>
         </div>
+      </div>
+
+      <div
+        id="wisdom-and-inspiration-from-tech"
+        className="mt-[100px] flex flex-col px-[--px]"
+      >
+        <h1 className="font-bold mx-auto text-[--pri-col] text-center text-1xl leading-relaxed 600:text-[25px] 800:text-[28px] md:leading-normal lg:text-[40px] lg:max-w-[881px]">
+          Wisdom and{" "}
+          <span className="border-b-4 border-[--accent1]">
+            Inspiration
+          </span>
+          {" "}from Tech Visionaries
+        </h1>
+
+        <p className="text-center mx-auto text-md mt-3 lg:mt-6 lg:text-lg lg:max-w-[881px]">
+          Unleashing Inspiration from Visionaries and Innovators. Discover
+          profound insights and wisdom from industry leaders that illuminate the
+          transformative power of technology.
+        </p>
       </div>
     </section>
   );
