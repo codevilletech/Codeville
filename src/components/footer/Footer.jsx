@@ -8,7 +8,7 @@ import { FaInstagramSquare, FaWhatsappSquare } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="grid grid-cols-1 gap-6 bg-[#E6F5F4] mt-[88px]backdrop:blur-md py-[41px] px-[--px] md:gap-12 lg:mt-[150px] ">
+    <footer className="grid grid-cols-1 gap-6 bg-[#E6F5F4] mt-[88px]backdrop:blur-md py-[41px] px-[--px] mt-[87px] md:gap-12 lg:mt-[150px] ">
 
       <main id="template" className="grid grid-cols-1 gap-6 500:gap-8 500:grid-cols-2 lg:gap-[90px] lg:grid-cols-4">
         <ul>
