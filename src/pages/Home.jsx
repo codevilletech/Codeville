@@ -19,7 +19,11 @@ const Home = () => {
       <section>
         <Navbar />
 
-        <header className="flex flex-col mt-[27px] mx-[--px] md:flex-row md:items-cente md:justify-between md:gap-[45px] lg:mt-[64px]">
+        {/* hero */}
+        <header
+          id="hero"
+          className="flex flex-col mt-[27px] mx-[--px] md:flex-row md:items-cente md:justify-between md:gap-[45px] lg:mt-[64px]"
+        >
           <div className="flex flex-col 1000:w-12/12 ">
             <h1 className="text-[--pri-col] font-bold text-[24px] 400:text-3xl 400:leading-[40px] 500:text-4xl 500:leading-[45px] 700:text-[38px] 700:leading-[50px] md:text-[25px] md:leading-[40px] 800:text-3xl 900:text-[35px] 900:leading-[50px] lg:text-[40px] lg:leading-[60x] 1200:text-[40px] 1200:leading-[60px] 1300:text-[50px] 1300:leading-[70px] 1400:text-[55px] 1400:leading-[75px]">
               Experience the Codeville Difference: Tech
@@ -89,6 +93,7 @@ const Home = () => {
           />
         </header>
 
+        {/* unlock-your-skills */}
         <div
           id="unlock-your-skills"
           className="mt-[100px] mx-auto flex flex-col px-[--px] 500:w-11/12 700:w-10/12 lg:w-full xl:mt-[163px]"
@@ -117,6 +122,7 @@ const Home = () => {
           </button>
         </div>
 
+        {/* custom-software-dev-service */}
         <div
           id="custom-software-dev-service"
           className="mt-[100px] mx-auto flex flex-col px-[--px]  xl:mt-[150px]"
@@ -151,6 +157,7 @@ const Home = () => {
           </button>
         </div>
 
+        {/* why-choose-us */}
         <div id="why-choose-us" className="flex flex-col">
           <div className="mt-[150px] flex flex-row gap-[60px] px-[--px] 1100:gap-10 xl:mt-[150px]">
             <div id="why-us-text" className="lg:w-1/2">
@@ -261,6 +268,7 @@ const Home = () => {
           </div>
         </div>
 
+        {/* wisdom-and-inspiration-from-tech */}
         <div
           id="wisdom-and-inspiration-from-tech"
           className="mt-[100px] flex flex-col"
@@ -294,6 +302,7 @@ const Home = () => {
           </div>
         </div>
 
+        {/* the codeville experts */}
         <div
           id="the-codeville-experts"
           className="mt-[100px] lg:mt-[120px] px-[--px]"

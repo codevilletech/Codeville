@@ -107,7 +107,7 @@ const Footer = () => {
         </ul>
       </main>
 
-      <small className="text-lg text-center text-[--footer-col] font-medium">
+      <small id="copyright" className="text-lg text-center text-[--footer-col] font-medium">
         © 2023 Codeville, All Rights Reserved
       </small>
     </footer>
