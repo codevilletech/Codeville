@@ -3,7 +3,7 @@ import wisdomAndInspiration1 from "../../assets/wisdomAndInspiration1.jpeg";
 
 const HomeWisdomInspirationCard = () => {
   return (
-    <div className="flex flex-col px-[20px] py-6 rounded-[4px] border border-[#A0A0A0] w-full gap-3 bg-[--accent2] h-fit">
+    <div className="flex flex-col px-[20px] py-6 rounded-[4px] border border-[#A0A0A0] w-full gap-3 bg-[--accent2] h-fit lg:min-w-">
       <img
         src={wisdomAndInspiration1}
         alt=""

@@ -42,7 +42,7 @@ section,
 .overflow-y-scroll::-webkit-scrollbar,
 .overflow-x-scroll::-webkit-scrollbar,
 .overflow-auto::-webkit-scrollbar {
-  display: hidden;
+  display: none;
   scrollbar-width: 0;
 }
 

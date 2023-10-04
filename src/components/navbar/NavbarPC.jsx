@@ -13,7 +13,7 @@ const NavbarPC = () => {
       <>
         <li>
           <NavLink
-            className={location === "/" ? activeStyle : inActiveStyle}
+            className={location === "/about" ? activeStyle : inActiveStyle}
             to="/about"
           >
             About
