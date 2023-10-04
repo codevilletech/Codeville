@@ -8,7 +8,7 @@ import enhanceSkill1 from "../assets/enhanceSkill1.jpeg";
 import enhanceSkill2 from "../assets/enhanceSkill2.jpeg";
 import enhanceSkill3 from "../assets/enhanceSkill3.jpeg";
 import { homeData } from "../data/homeData";
-import HomeWhyUsCard from "../components/home/HomeWhyUsCard";
+import HomeWhyCodevilleCard from "../components/home/HomeWhyCodevilleCard";
 import HomeWisdomInspiration from "../components/home/HomeWisdomInspiration";
 import CodevilleExpertsSlider from "../components/home/CodevilleExpertsSlider";
 import Footer from "../components/footer/Footer";
@@ -32,7 +32,7 @@ const Home = () => {
               </span>
             </h1>
 
-            <p className="mt-3 500:mt-6 500:text-lg md:text-lg lg:text-1xl">
+            <p className="mt-3 500:mt-6 500:text-lg md:text-lg xl:text-1xl">
               Discover a World of Possibilities in Software and Tech Learning
             </p>
 
@@ -196,7 +196,7 @@ const Home = () => {
                 className="grid mt-[45px] gap-[24px] 600:grid-cols-2 lg:grid-cols-1 lg:mt-[40px] lg:w-11/12"
               >
                 {homeData.whyChooseUs.map((data, index) => (
-                  <HomeWhyUsCard
+                  <HomeWhyCodevilleCard
                     key={index}
                     icon={data.icon}
                     title={data.title}

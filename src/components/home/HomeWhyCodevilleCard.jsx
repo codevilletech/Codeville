@@ -1,8 +1,8 @@
-const HomeWhyUsCard = ({ icon, title, text }) => {
+const HomeWhyCodevilleCard = ({ icon, title, text }) => {
   return (
     <div className="flex items-start gap-3 flex-col lg:flex-row">
-      <span className="flex mt-2 items-center p-[10px] bg-[--accent3] w-fit rounded-[4px]">
-        <img src={icon} alt="" className="lg:w-[50px]" />
+      <span className="flex items-center p-[10px] bg-[--accent3] w-fit rounded-[4px] 600:mt-0 lg:mt-1">
+        <img src={icon} alt="" className="600:w-[18px] lg:w-[70px]" />
       </span>
 
       <div>
@@ -18,4 +18,4 @@ const HomeWhyUsCard = ({ icon, title, text }) => {
   );
 };
 
-export default HomeWhyUsCard;
+export default HomeWhyCodevilleCard;

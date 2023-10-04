@@ -45,7 +45,7 @@ const NavbarPC = () => {
       </>
 
       <div id="buttons">
-        <button className="font-bold text-[--accent2] bg-[--sec-col] rounded-[4px] py-4 px-6">
+        <button className="font-bold text-[--accent2] bg-[--sec-col] rounded-[4px] py-3 px-6">
           Get Started
         </button>
 

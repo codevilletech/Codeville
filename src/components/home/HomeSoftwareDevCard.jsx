@@ -4,7 +4,7 @@ const HomeSoftwareDevCard = ({ icon, title, text }) => {
   return (
     <div className='flex flex-col'>
       <span className="flex items-center p-[10px] bg-[--accent3] w-fit rounded-[4px]">
-        <img src={icon} alt="" />
+        <img src={icon} alt="" className="600:w-[20px]"/>
       </span>
 
       <div>

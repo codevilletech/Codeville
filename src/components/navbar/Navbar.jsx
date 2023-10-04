@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <header>
       <nav className="flex items-center justify-between py-3 shadow-navShadow px-[--px] lg:shadow-none">
-        <NavLink to="/" className="w-[38px] 400:w-[50px] 600:w-[60px] lg:w-[100px] cursor-pointer">
+        <NavLink to="/" className="w-[38px] 400:w-[50px] 600:w-[60px] lg:w-[80px] xl:w-[100px] cursor-pointer">
           <img src={logo} alt="" className="w-full h-full" />
         </NavLink>
 
