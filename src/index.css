@@ -12,7 +12,7 @@
   --pri-col: #313131;
   --sec-col: #009891;
   --body-col: #757575;
-  --footer-text: #5a5a5a;
+  --footer-col: #5a5a5a;
   --accent1: #ff9900;
   --accent2: #fff;
   --accent3: #b0dfdd;
@@ -28,9 +28,12 @@ body {
   color: var(--body-col);
   font-size: 16px;
   transition: all linear 0.2s;
+  overflow-x: hidden;
 }
 
-section{
+section,
+.template,
+#template {
   width: 100%;
   max-width: 1440px;
   margin-inline: auto;
@@ -56,13 +59,17 @@ section{
 }
 
 @media (width <= 768px) {
-  :root{
+  :root {
     --px: 30px;
+  }
+
+  body {
+    font-size: 14px;
   }
 }
 
 @media (width <= 500px) {
-  :root{
+  :root {
     --px: 16px;
   }
 }

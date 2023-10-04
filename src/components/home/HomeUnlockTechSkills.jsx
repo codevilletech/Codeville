@@ -1,5 +1,5 @@
 import React from "react";
-import homeCardImg1 from "../assets/homeCardImg1.png";
+import homeCardImg1 from "../../assets/homeCardImg1.png";
 import { GoArrowRight } from "react-icons/go";
 
 const HomeCard = () => {

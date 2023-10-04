@@ -38,8 +38,11 @@ export default {
       },
 
       backgroundImage: {
-        homeWisdomAndInspiration:
-          "linear-gradient(180deg, rgba(234, 234, 234, 0.40) 0%, rgba(234, 234, 234, 0.00) 100%)",
+        homeWisdomAndInspirationMobile:
+          "linear-gradient(190deg, rgba(249,249,249,1) 40%, rgba(241,219,237,1) 60%, rgba(252,242,236,1) 100%);",
+
+          homeWisdomAndInspirationPC:
+          "linear-gradient(-190deg, rgba(249,249,249,1) 40%, rgba(241,219,237,1) 60%, rgba(252,242,236,1) 100%);",
       },
     },
   },
